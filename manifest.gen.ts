@@ -4,15 +4,25 @@
 
 import * as $$$$$$$$$$$0 from "./apps/deco/htmx.ts";
 import * as $$$$$$$$$$$1 from "./apps/site.ts";
+import * as $$$0 from "./loaders/drivers/getConstructorChampionshipStandings.tsx";
+import * as $$$1 from "./loaders/drivers/getDriverChampionshipStandings.tsx";
+import * as $$$2 from "./loaders/drivers/getTest.ts";
 import * as $$$$$$0 from "./sections/Footer.tsx";
 import * as $$$$$$1 from "./sections/ItWorks.tsx";
-import * as $$$$$$2 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$2 from "./sections/StandingsOverview.tsx";
+import * as $$$$$$3 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
+  "loaders": {
+    "site/loaders/drivers/getConstructorChampionshipStandings.tsx": $$$0,
+    "site/loaders/drivers/getDriverChampionshipStandings.tsx": $$$1,
+    "site/loaders/drivers/getTest.ts": $$$2,
+  },
   "sections": {
     "site/sections/Footer.tsx": $$$$$$0,
     "site/sections/ItWorks.tsx": $$$$$$1,
-    "site/sections/Theme/Theme.tsx": $$$$$$2,
+    "site/sections/StandingsOverview.tsx": $$$$$$2,
+    "site/sections/Theme/Theme.tsx": $$$$$$3,
   },
   "apps": {
     "site/apps/deco/htmx.ts": $$$$$$$$$$$0,
